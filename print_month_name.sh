@@ -1,5 +1,16 @@
 month_name=$1
 
+if [ $moth_name -lt 1 ] || [ $month_name -gt 12 ]
+
+then
+
+    echo "Invalid month number. Please enter a valid number between 1 - 12"
+
+    exit
+fi
+
+
+
 if [ $month_name -eq 1 ]
 
 then
